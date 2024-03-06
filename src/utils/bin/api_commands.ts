@@ -16,12 +16,12 @@ export const readme = async (args: string[]): Promise<string> => {
   const readme = await getReadme();
   return `Opening GitHub README...\n
   ${readme}`;
-
+};
   export const scripture = async (args: string[]): Promise<string> => {
   const scripture = await getScripture(text);
   return scripture;
 };
-};
+
 
 export const weather = async (args: string[]): Promise<string> => {
   const city = args.join('+');
