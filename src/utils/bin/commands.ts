@@ -132,6 +132,11 @@ export const sudo = async (args?: string[]): Promise<string> => {
   return `Permission denied: with little power comes... no responsibility? `;
 };
 
+export const mainsite = async (args?: string[]): Promise<string> => {
+  window.open('https://ryansprogramming.com', '_blank'); // ...I'm sorry
+  return `You sure? `;
+};
+
 // Banner
 export const banner = (args?: string[]): string => {
   return `
