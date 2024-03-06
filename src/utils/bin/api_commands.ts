@@ -4,7 +4,6 @@ import { getProjects } from '../api';
 import { getQuote } from '../api';
 import { getReadme } from '../api';
 import { getWeather } from '../api';
-import { getScripture } from '../api';
 
 
 export const quote = async (args: string[]): Promise<string> => {
@@ -17,11 +16,6 @@ export const readme = async (args: string[]): Promise<string> => {
   return `Opening GitHub README...\n
   ${readme}`;
 };
-  export const scripture = async (args: string[]): Promise<string> => {
-  const scripture = await getScripture(text);
-  return scripture;
-};
-
 
 export const weather = async (args: string[]): Promise<string> => {
   const city = args.join('+');
