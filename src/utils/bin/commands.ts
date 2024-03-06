@@ -148,5 +148,6 @@ export const banner = (args?: string[]): string => {
 ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝    ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝                                                                                            
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
+Type 'mainsite' to visit his resume site.
 `;
 };
