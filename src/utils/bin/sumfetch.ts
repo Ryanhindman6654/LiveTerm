@@ -43,6 +43,8 @@ const sumfetch = async (args: string[]): Promise<string> => {
                                             -----------
                                              Other Site
                                              <u><a href="${config.main_site}" target="_blank">Main Site</a></u>
+                                              <u><a href="${config.status_site}" target="_blank">Status Page</a></u>
+`;
 `;
   }
 };
