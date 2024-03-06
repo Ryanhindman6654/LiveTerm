@@ -22,13 +22,6 @@ export const getWeather = async (city: string) => {
   }
 };
 
-export const getScripture = async () => {
-  try {
-    const { data } = await axios.get('https://openscriptureapi.org/api/scriptures/v1/lds/english');
-    return {
-      scripture: `${data.verse} - ${data.book} ${data.chapter}:${data.verseNumber}`,
-    };
-
 export const getQuote = async () => {
   const { data } = await axios.get('https://api.quotable.io/random');
   return {
