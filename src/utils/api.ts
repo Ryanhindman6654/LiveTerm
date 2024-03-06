@@ -13,6 +13,12 @@ export const getReadme = async () => {
   return data;
 };
 
+export const getScripture = async () => {
+  const { data } = await axios.get(`https://api.nephi.org/scriptures/?q=text`);
+  return data;
+};
+
+
 export const getWeather = async (city: string) => {
   try {
     const { data } = await axios.get(`https://wttr.in/${city}?ATm`);
