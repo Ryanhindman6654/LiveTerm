@@ -4,7 +4,7 @@ import { getProjects } from '../api';
 import { getQuote } from '../api';
 import { getReadme } from '../api';
 import { getWeather } from '../api';
-import {getScripture} from '../api';
+import { getScripture } from '../api';
 
 
 export const quote = async (args: string[]): Promise<string> => {
