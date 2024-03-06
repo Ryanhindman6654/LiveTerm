@@ -8,8 +8,9 @@ const sumfetch = async (args: string[]): Promise<string> => {
       @@                       @@            ABOUT
     @@                           @@          ${config.name}
   @@                               @@       ﰩ ${config.ps1_hostname}
- @@                         @@@     @@       <u><a href="${config.resume_url}" target="_blank">resume</a></u>
-@@        @@@                        @@     爵 <u><a href="${config.repo}" target="_blank">Github repo</a></u>
+ @@      @@@                @@@     @@       <u><a href="${config.resume_url}" target="_blank">Resume</a></u>
+@@                                   @@      <u><a href="${config.main_site}" target="_blank">Main Site</a></u>
+@@                                   @@     爵 <u><a href="${config.repo}" target="_blank">Github repo</a></u>
 @@                                   @@     -----------
 @@             .@@@@@@@@@@.          @@      CONTACT 
  @@           @@          @@        @@       <u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>
