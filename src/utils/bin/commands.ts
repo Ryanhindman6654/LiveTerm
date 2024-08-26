@@ -39,9 +39,10 @@ export const resume = async (args: string[]): Promise<string> => {
 
 // Donate
 export const donate = async (args: string[]): Promise<string> => {
- return `thank you for your interest. 
+  return `thank you for your interest. 
 here are the ways you can support my work:
 <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>`;
+};
 
 // Contact
 export const email = async (args: string[]): Promise<string> => {
@@ -51,7 +52,6 @@ export const email = async (args: string[]): Promise<string> => {
 
 export const linkedin = async (args: string[]): Promise<string> => {
   window.open(`https://www.linkedin.com/in/${config.social.linkedin}/`);
-
   return 'Opening linkedin...';
 };
 
@@ -118,15 +118,16 @@ export const emacs = async (args?: string[]): Promise<string> => {
   return `you know what? just use vscode.`;
 };
 
-export const sudo = async (args?: string[]): Promise<string> => {
+export const sudo = async (): Promise<string> => {
   window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
   return `Permission denied: with little power comes... no responsibility? `;
 };
 
-export const mainsite = async (args?: string[]): Promise<string> => {
+export const mainsite = async (): Promise<string> => {
   window.open('https://ryansprogramming.com', '_blank'); // ...I'm sorry
   return `You sure? `;
 };
+
 
 // Banner
 export const banner = (args?: string[]): string => {
