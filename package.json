@@ -7,7 +7,7 @@
     "url": "https://cveinnt.com",
     "email": "contact@wensenwu.com"
       "engines": {
-    "node": ">=18"
+    "node": ">=24"
   },
   },
   "scripts": {
